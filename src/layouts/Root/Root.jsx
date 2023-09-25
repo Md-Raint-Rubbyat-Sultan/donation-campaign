@@ -3,7 +3,7 @@ import Header from '../../pages/Shared/Header/Header';
 
 const Root = () => {
     return (
-        <div className='container mx-auto'>
+        <div>
             <Header />
             <Outlet />
         </div>
