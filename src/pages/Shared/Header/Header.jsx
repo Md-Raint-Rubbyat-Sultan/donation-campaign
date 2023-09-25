@@ -6,7 +6,7 @@ import { useState } from 'react';
 const Header = () => {
     const [isMenuActive, setIsMenuActive] = useState(() => false);
     return (
-        <nav className='flex justify-between items-center pt-6 z-40 container mx-auto'>
+        <nav className='flex justify-between items-center pt-6 px-4 lg:px-0 z-40 container mx-auto'>
             <img className='w-auto h-20' src={logo} alt="Logo" />
             <div onClick={() => setIsMenuActive((prev) => !prev)}>
                 {
