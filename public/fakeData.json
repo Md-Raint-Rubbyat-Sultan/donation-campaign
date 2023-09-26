@@ -9,7 +9,7 @@
         "Button_BG_Color": "#0052ff33",
         "Text_BG_Color": "#0052FF",
         "Description": "Support our mission to end hunger and food insecurity.",
-        "Price": "$20"
+        "Price": "20"
     },
     {
         "ID": 102,
@@ -21,7 +21,7 @@
         "Button_BG_Color": "#0052ff33",
         "Text_BG_Color": "#0052FF",
         "Description": "Help provide clean and safe drinking water to communities in need.",
-        "Price": "$25"
+        "Price": "25"
     },
     {
         "ID": 103,
@@ -33,7 +33,7 @@
         "Button_BG_Color": "#0052ff33",
         "Text_BG_Color": "#0052FF",
         "Description": "Aid those affected by natural disasters and emergencies.",
-        "Price": "$45"
+        "Price": "45"
     },
     {
         "ID": 104,
@@ -45,7 +45,7 @@
         "Button_BG_Color": "#0052ff33",
         "Text_BG_Color": "#0052FF",
         "Description": "Contribute to the preservation of our planet's natural beauty.",
-        "Price": "$35"
+        "Price": "35"
     },
     {
         "ID": 105,
@@ -57,7 +57,7 @@
         "Button_BG_Color": "#ff444a33",
         "Text_BG_Color": "#FF444A",
         "Description": "Give the gift of education and empower young minds.",
-        "Price": "$30"
+        "Price": "30"
     },
     {
         "ID": 106,
@@ -69,7 +69,7 @@
         "Button_BG_Color": "#ff444a33",
         "Text_BG_Color": "#FF444A",
         "Description": "Support creativity and cultural enrichment through the arts.",
-        "Price": "$30"
+        "Price": "30"
     },
     {
         "ID": 107,
@@ -81,7 +81,7 @@
         "Button_BG_Color": "#ff444a33",
         "Text_BG_Color": "#FF444A",
         "Description": "Invest in the future by empowering the youth with education and opportunities.",
-        "Price": "$40"
+        "Price": "40"
     },
     {
         "ID": 108,
@@ -93,7 +93,7 @@
         "Button_BG_Color": "#ff444a33",
         "Text_BG_Color": "#FF444A",
         "Description": "Bridge the digital divide and provide access to technology for all.",
-        "Price": "$50"
+        "Price": "50"
     },
     {
         "ID": 109,
@@ -105,7 +105,7 @@
         "Button_BG_Color": "#79c23d33",
         "Text_BG_Color": "#79C23F",
         "Description": "Help provide safe and stable housing for those without a home.",
-        "Price": "$50"
+        "Price": "50"
     },
     {
         "ID": 110,
@@ -117,7 +117,7 @@
         "Button_BG_Color": "#79c23d33",
         "Text_BG_Color": "#79C23F",
         "Description": "Support accessible healthcare services for underserved communities.",
-        "Price": "$40"
+        "Price": "40"
     },
     {
         "ID": 111,
@@ -129,7 +129,7 @@
         "Button_BG_Color": "#79c23d33",
         "Text_BG_Color": "#79C23F",
         "Description": "Help protect and care for human in need.",
-        "Price": "$25"
+        "Price": "25"
     },
     {
         "ID": 112,
@@ -141,6 +141,6 @@
         "Button_BG_Color": "#79c23d33",
         "Text_BG_Color": "#79C23F",
         "Description": "Improve the quality of life for the elderly in our community.",
-        "Price": "$35"
+        "Price": "35"
     }
 ]
