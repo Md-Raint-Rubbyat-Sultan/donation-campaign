@@ -5,7 +5,6 @@ import DonationCard from '../DonationCard/DonationCard';
 const Home = () => {
 
     const donationCardData = useLoaderData();
-    console.log(donationCardData)
 
     return (
         <div>

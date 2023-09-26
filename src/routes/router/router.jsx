@@ -19,6 +19,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/donation',
+                loader: async () => await fetch("../../../public/fakeData.json"),
                 element: <Donation />,
             },
             {
