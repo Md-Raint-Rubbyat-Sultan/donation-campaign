@@ -7,7 +7,7 @@ import './Statistics.css';
 const Statistics = () => {
     const donationAllData = useLoaderData();
     const [donationData, setDonationData] = useState(() => []);
-    const [responsiveSize, setResponsiveSize] = useState(() => window.innerWidth);
+    const [responsiveSize, setResponsiveSize] = useState(() => (window.innerWidth <1280) ? window.innerWidth : 1280);
 
     const loadDataFromLocalStore = async () => {
         const data = await getDataFromLocalStore();
@@ -19,14 +19,17 @@ const Statistics = () => {
 
     const windowSize = () => {
         const size = window.innerWidth;
-        setResponsiveSize(() => size);
+        if(size < 1280){
+            setResponsiveSize(() => size);
+        }else{
+            setResponsiveSize(()=> 1280);
+        }
     }
     
     useEffect(() => {
         let mount = true;
         loadDataFromLocalStore()
         window.addEventListener("resize", windowSize);
-        console.log(responsiveSize);
         return () => mount = false;
     }, []);
 

@@ -41,7 +41,7 @@ const Donation = () => {
                     <button onClick={handelShowAllBtn} className={`text-white font-semibold bg-[#009444] my-10 px-7 py-4 rounded-lg ${showAllBtn ? '' : "hidden"}`}>See All</button>
                 }
             </div>
-            <h3 className={`text-center text-4xl font-bold ${donated.length > 0 && "hidden"}`}>Please Donate!</h3>
+            <h3 className={`text-center text-4xl text-red-500 font-bold ${donated.length > 0 && "hidden"}`}>Please Donate!</h3>
         </div>
     );
 };

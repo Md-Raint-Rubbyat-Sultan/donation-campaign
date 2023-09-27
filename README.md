@@ -1,8 +1,7 @@
-# React + Vite
+# Donation Camping
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Main feature of this project is responsive pie chart which is made responsive using window.innerHeight and addeventlisitener.
+- The data fetch into dynamic route uses a method before fetching called find method of array.
+- Every component have a props have propTypes functionality.
