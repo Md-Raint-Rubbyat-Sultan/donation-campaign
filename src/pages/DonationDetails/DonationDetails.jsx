@@ -14,7 +14,7 @@ const DonationDetails = () => {
     return (
         <div className='container mx-auto py-20 px-4 lg:px-0'>
             <div className='relative overflow-hidden rounded-lg mb-14'>
-                <img className='w-full h-72 md:h-96 lg:h-[700]' src={Picture} alt={Title} />
+                <img className='w-full h-72 md:h-96 lg:h-[700px] object-cover' src={Picture} alt={Title} />
                 <div className='absolute backdrop-brightness-50 w-full bottom-0 p-9'>
                     <button onClick={() => handelDonationBtn(ID)} style={{
                         background: Text_BG_Color,

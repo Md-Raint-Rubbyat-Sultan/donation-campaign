@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 const DonatedCard = ({ donate }) => {
     const { Picture, Category, Title, Price, Text_BG_Color, Button_BG_Color, Card_BG_Color } = donate;
     return (
-        <div className="card lg:card-side" style={{
+        <div className="card md:card-side" style={{
             background: Card_BG_Color,
         }}>
             <figure>
-                <img className='w-full lg:h-full lg:w-auto rounded-2xl' src={Picture} alt={Title} />
+                <img className='w-full md:h-full md:w-auto rounded-2xl' src={Picture} alt={Title} />
             </figure>
             <div className="p-6 space-y-5">
                 <div className='space-y-2'>

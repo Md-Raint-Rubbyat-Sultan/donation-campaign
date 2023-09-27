@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
-function DonationCard({ cardData }) {
+const DonationCard = ({ cardData }) => {
     const { ID, Picture, Category
         , Title, Button_BG_Color, Card_BG_Color, Text_BG_Color } = cardData;
 
@@ -12,7 +12,7 @@ function DonationCard({ cardData }) {
             background: Card_BG_Color,
         }}>
             <figure>
-                <img className='w-full' src={Picture} alt="Shoes" />
+                <img className='w-full object-cover' src={Picture} alt="Shoes" />
             </figure>
             <div className="p-4 space-y-4">
                 <span className="px-4 py-2 rounded-md font-medium" style={{
