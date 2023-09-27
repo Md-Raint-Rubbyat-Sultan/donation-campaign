@@ -14,18 +14,18 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                loader: async () => await fetch('../../../public/fakeData.json'),
+                loader: async () => await fetch('/fakeData.json'),
                 element: <Home />,
             },
             {
                 path: '/donation',
-                loader: async () => await fetch("../../../public/fakeData.json"),
+                loader: async () => await fetch("/fakeData.json"),
                 element: <Donation />,
             },
             {
                 path: '/donationDetails/:id',
                 loader: async ({ params }) => {
-                    const res = await fetch('../../../public/fakeData.json');
+                    const res = await fetch('/fakeData.json');
                     const data = await res.json();
                     const dataToGet = await data.find(singleData => singleData?.ID.toString() === params.id);
                     return dataToGet;
@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/statistics',
-                loader: async () => await fetch('../../../public/fakeData.json'),
+                loader: async () => await fetch('/fakeData.json'),
                 element: <Statistics />,
             },
         ]
