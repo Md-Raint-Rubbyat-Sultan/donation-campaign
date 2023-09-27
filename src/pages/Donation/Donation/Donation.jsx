@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getDataFromLocalStore } from '../../../hooks/localStoreHook';
 import DonatedCard from '../DonatedCard/DonatedCard';

@@ -34,6 +34,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/statistics',
+                loader: async () => await fetch('../../../public/fakeData.json'),
                 element: <Statistics />,
             },
         ]
